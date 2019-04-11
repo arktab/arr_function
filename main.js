@@ -7,17 +7,18 @@
 })();
 
 function startMap(toSquare, arr) {
-    var someArr = [1, 2, 3, 4];
+    var someArr = [1,2, 3, 4, 5];
     var newArr = [];
-    var x = 0;
+   
 
     function toSquare(arr) {
-        for (var i = 0; i <= arr.length; ++i) {
-            x = arr[i] *arr[i];
+        for (var i = 0; i < arr.length; i++) {
+            var x = arr[i] *arr[i];
             newArr.push(x);
+            
         }
     }
+//  newArr.pop();
     toSquare(someArr);
-    alert(`Before ${someArr} after ${newArr}`);
-
+    alert(`Before ${someArr}\nAfter ${newArr}`);
 }
