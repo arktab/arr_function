@@ -18,7 +18,7 @@ function startMap(toSquare, arr) {
             
         }
     }
-//  newArr.pop();
+    
     toSquare(someArr);
     alert(`Before ${someArr}\nAfter ${newArr}`);
 }
