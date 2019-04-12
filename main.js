@@ -1,7 +1,7 @@
 'use strict';
 (function () {
 
-    var start = document.querySelector('.primeBtn');
+    var start = document.querySelector('.startBtn');
     start.onclick = startMap;
 
 })();
